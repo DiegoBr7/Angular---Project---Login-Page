@@ -1,0 +1,26 @@
+@import "../../../styles/variable.scss";
+
+.input-wrapper {
+  color: $text-color;
+  font-size: 16px;
+  text-align: start;
+
+  .imput-content {
+
+    width: 100%;
+
+    .icon{
+        padding: 12px;
+        
+    }
+
+    input {
+      border: none;
+      border-radius: 8px;
+      background-color: $gray-secondary-bg;
+
+      padding: 12px 0px 12px 20px;
+      width: 100%;
+    }
+  }
+}

@@ -37,6 +37,26 @@ main {
     }
 
 
+    .divider{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      width: 100%;
+      
+      font-size: 14px;
+      color: $gray-bg;
+      font-weight: 400;
+      text-transform: uppercase;
+      
+      
+      div{
+       flex-grow: 1;
+        height: 2px;
+        background-color: $gray-bg;
+      }
+    }
+
   }
 
 
@@ -52,6 +72,7 @@ main {
  
     button{
       width: 100%;
+      cursor: pointer;
       border-radius: 8px;
       font-size: 16px;
       font-weight: 500;
